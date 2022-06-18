@@ -1,0 +1,35 @@
+<html>
+
+    <head>
+        <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+        <meta content="utf-8" http-equiv="encoding">
+        <script src="../p5.min.js"></script>
+        <script src="./main.js"></script>
+    </head>
+
+    <body style="background-color: #111111; color: #ffffff;">
+        <div id="select_container" style="border:4; border-color: #ffffff;">
+            <p>node opacity
+                <br><select id="node_opacity"></select>
+            </p>
+            <p>number of nodes:
+                <br><select id="n_nodes_select"></select>
+            </p>
+            <!--
+            <p>node size:
+                <br><select id="n_size_select"></select>
+            </p>
+            -->
+            <p>columns:
+                <br><select id="n_cols_select"></select>
+            </p>
+            <p>rows:
+                <br><select id="n_rows_select"></select>
+            </p>
+            <p><button id="reset" onclick="reset()">start over</button></p>
+        </div>
+        <div id="canvas-container" style="border:4; border-color: #ffffff;"></div>
+    </body>
+
+</html>
+<script src="select_config.js"></script>
